@@ -27,7 +27,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.69635417"
-     inkscape:cx="1026.8914"
+     inkscape:cx="1187.1531"
      inkscape:cy="540"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -53,7 +53,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -73,19 +73,34 @@
        y="-290.31497" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;line-height:48px;font-family:'Blue Highway';-inkscape-font-specification:'Blue Highway';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#000000;stroke-width:0.744;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;line-height:54.6px;font-family:'Blue Highway';-inkscape-font-specification:'Blue Highway';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:#000000;stroke-width:0.744;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="639.63098"
        y="-179.18649"
        id="text881"><tspan
          sodipodi:role="line"
-         x="1269.5812"
+         x="639.63098"
          y="-179.18649"
          id="tspan47"
-         style="font-weight:bold;stroke-width:0.744;text-anchor:start;text-align:start;">Hasta la vista, Baby Tank Girl!</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:start;text-anchor:start;stroke-width:0.744">HASTA LA VISTA,</tspan><tspan
          sodipodi:role="line"
-         x="1269.5812"
-         y="-130.51173"
-         style="font-weight:bold;stroke-width:0.744;text-anchor:start;text-align:start;"
-         id="tspan19">When you got to shoot - shoot - then talk!</tspan></text>
+         x="639.63098"
+         y="-122.0225"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:start;text-anchor:start;stroke-width:0.744"
+         id="tspan11">BABY TANK GIRL!</tspan><tspan
+         sodipodi:role="line"
+         x="639.63098"
+         y="-64.858505"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:start;text-anchor:start;stroke-width:0.744"
+         id="tspan19" /><tspan
+         sodipodi:role="line"
+         x="639.63098"
+         y="-7.69451"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:start;text-anchor:start;stroke-width:0.744"
+         id="tspan13">WHEN YOU GOT TO SHOOT,</tspan><tspan
+         sodipodi:role="line"
+         x="639.63098"
+         y="49.469482"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:start;text-anchor:start;stroke-width:0.744"
+         id="tspan15">SHOOT - THEN TALK!</tspan></text>
   </g>
 </svg>
