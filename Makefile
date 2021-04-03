@@ -1,7 +1,11 @@
-SVG = captioned-image--badass-fluttershy--terminator-liberation.svg
-PNG = $(SVG).png
-JPEG = $(SVG).jpg
-WEBP = $(SVG).webp
+WIDTH = 600
+
+BASE = captioned-image--badass-fluttershy--terminator-liberation
+SVG = $(BASE).svg
+DESTBASE = $(BASE)-$(WIDTH)
+PNG = $(DESTBASE).png
+JPEG = $(DESTBASE).jpg
+WEBP = $(DESTBASE).webp
 
 THIRD_PERSON_SVG = gotta-be-a-badass-to-play-one--3rd-tense.svg
 THIRD_PERSON_PNG = $(THIRD_PERSON_SVG).png
@@ -14,8 +18,6 @@ NOBRANDING_PERSON_JPEG = $(NOBRANDING_PERSON_SVG).jpg
 NOBRANDING_PERSON_WEBP = $(NOBRANDING_PERSON_SVG).webp
 
 PHOTO_DEST = d5gxovp-14e90c16-410d-4433-b1ba-c7af00bb53cb.png
-
-WIDTH = 600
 
 all: $(PNG) $(JPEG) $(WEBP)
 # all: $(NOBRANDING_PERSON_PNG) $(NOBRANDING_PERSON_WEBP) $(NOBRANDING_PERSON_JPEG) $(NOBRANDING_PERSON_PNG)
