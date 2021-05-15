@@ -3,6 +3,7 @@ WIDTH = 600
 BASE = captioned-image--badass-fluttershy--terminator-liberation
 SVG = $(BASE).svg
 DESTBASE = $(BASE)-$(WIDTH)
+DESTBASE_default = $(SVG)
 PNG = $(DESTBASE).png
 JPEG = $(DESTBASE).jpg
 WEBP = $(DESTBASE).webp
@@ -25,6 +26,9 @@ all: $(PNG) $(JPEG) $(WEBP)
 $(PNG): $(SVG) $(PHOTO_DEST)
 	inkscape --export-filename=$@ --export-width=$(WIDTH) $<
 	optipng $@
+
+$(DESTBASE_default).webp: $(WEBP)
+	cp -f $< $@
 
 $(WEBP): $(PNG)
 	gm convert $< $@
