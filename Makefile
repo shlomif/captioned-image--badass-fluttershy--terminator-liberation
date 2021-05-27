@@ -23,7 +23,7 @@ all: $(PNG) $(JPEG) $(WEBP)
 # all: $(NOBRANDING_PERSON_PNG) $(NOBRANDING_PERSON_WEBP) $(NOBRANDING_PERSON_JPEG) $(NOBRANDING_PERSON_PNG)
 
 $(PNG): $(SVG) $(PHOTO_DEST)
-	inkscape --export-png=$@ --export-width=$(WIDTH) $<
+	inkscape --export-filename=$@ --export-width=$(WIDTH) $<
 	optipng $@
 
 $(WEBP): $(PNG)
@@ -33,7 +33,7 @@ $(JPEG): $(PNG)
 	gm convert $< $@
 
 $(THIRD_PERSON_PNG): $(THIRD_PERSON_SVG) $(PHOTO_DEST)
-	inkscape --export-png=$@ --export-width=$(WIDTH) $<
+	inkscape --export-filename=$@ --export-width=$(WIDTH) $<
 	optipng $@
 
 $(THIRD_PERSON_WEBP): $(THIRD_PERSON_PNG)
@@ -43,7 +43,7 @@ $(THIRD_PERSON_JPEG): $(THIRD_PERSON_PNG)
 	gm convert $< $@
 
 $(NOBRANDING_PERSON_PNG): $(NOBRANDING_PERSON_SVG) $(PHOTO_DEST)
-	inkscape --export-png=$@ --export-width=$(WIDTH) $<
+	inkscape --export-filename=$@ --export-width=$(WIDTH) $<
 	optipng $@
 
 $(NOBRANDING_PERSON_WEBP): $(NOBRANDING_PERSON_PNG)
